@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {FunctionComponent} from 'react';
+import PokemonList from './pages/pokemon-list';
+import PokemonDetail from './pages/pokemon-detail';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import PageNotFound from './pages/page-not-found';
+import PokemonEdit from './pages/pokemon-edit';
+import PokemonAdd from './pages/pokemon-add';
+import Login from './pages/login';
+import PrivateRoute from './PrivateRoute';
 
-function App() {
+
+const App: FunctionComponent = () => { 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+    <Router >
+      <div>
+        {/*La barre de navigation commun à toutes les pages */}
+        <nav>
+          <div className='nav-wrapper teal'>
+            <Link to="/" className="brand-logo center">Pokédex</Link>        
+          </div>
+        </nav>
+         {/*Lsystème de gestion des routes de notre application */}
+         <Switch>
+            <PrivateRoute exact path="/"  component={PokemonList} />
+            <Route exact path="/login" component={Login} />
+            <PrivateRoute exact path="/pokemons" component={PokemonList} />
+            <PrivateRoute exact path="/pokemon/add"  component={PokemonAdd}  />
+            <PrivateRoute exact path="/pokemons/edit/:id"  component={PokemonEdit}  />
+            <PrivateRoute path="/pokemons/:id" component={PokemonDetail} />
+            <Route component={PageNotFound} />
+         </Switch>
+      </div>
+    </ Router >  
+  )
+ }
+   
+ export default App;

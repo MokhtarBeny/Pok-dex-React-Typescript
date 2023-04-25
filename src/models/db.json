@@ -1,0 +1,237 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Bulbizarre",
+      "hp": 25,
+      "cp": 5,
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+      "types": [
+        "Plante",
+        "Poison"
+      ]
+    },
+    {
+      "id": 2,
+      "hp": "80",
+      "cp": "8",
+      "name": "Herbizarre",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
+      "types": [
+        "Plante",
+        "Poison"
+      ]
+    },
+    {
+      "id": 3,
+      "hp": "112",
+      "cp": "13",
+      "name": "Florizarre",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png",
+      "types": [
+        "Plante",
+        "Poison"
+      ]
+    },
+    {
+      "id": 4,
+      "hp": "48",
+      "cp": "6",
+      "name": "Salamèche",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+      "types": [
+        "Feu"
+      ]
+    },
+    {
+      "id": 5,
+      "hp": "78",
+      "cp": "9",
+      "name": "Reptincel",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+      "types": [
+        "Feu"
+      ]
+    },
+    {
+      "id": 6,
+      "hp": "112",
+      "cp": "13",
+      "name": "Dracaufeu",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png",
+      "types": [
+        "Feu",
+        "Vol"
+      ]
+    },
+    {
+      "id": 7,
+      "hp": "67",
+      "cp": "6",
+      "name": "Carapuce",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
+      "types": [
+        "Eau"
+      ]
+    },
+    {
+      "id": 8,
+      "hp": "84",
+      "cp": "10",
+      "name": "Carabaffe",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png",
+      "types": [
+        "Eau"
+      ]
+    },
+    {
+      "id": 9,
+      "hp": "110",
+      "cp": "12",
+      "name": "Tortank",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png",
+      "types": [
+        "Eau"
+      ]
+    },
+    {
+      "id": 10,
+      "hp": "40",
+      "cp": "2",
+      "name": "Chenipan",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/010.png",
+      "types": [
+        "Insecte"
+      ]
+    },
+    {
+      "id": 11,
+      "hp": "80",
+      "cp": "2",
+      "name": "Chrysacier",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/011.png",
+      "types": [
+        "Insecte"
+      ]
+    },
+    {
+      "id": 12,
+      "hp": "108",
+      "cp": "11",
+      "name": "Papilusion",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/012.png",
+      "types": [
+        "Insecte",
+        "Vol"
+      ]
+    },
+    {
+      "id": 13,
+      "hp": "40",
+      "cp": "2",
+      "name": "Aspicot",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
+      "types": [
+        "Insecte",
+        "Poison"
+      ]
+    },
+    {
+      "id": 14,
+      "hp": "80",
+      "cp": "2",
+      "name": "Coconfort",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/014.png",
+      "types": [
+        "Insecte",
+        "Poison"
+      ]
+    },
+    {
+      "id": 15,
+      "hp": "108",
+      "cp": "10",
+      "name": "Dardargnan",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/015.png",
+      "types": [
+        "Insecte",
+        "Poison"
+      ]
+    },
+    {
+      "id": 16,
+      "hp": "43",
+      "cp": "4",
+      "name": "Roucool",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/016.png",
+      "types": [
+        "Normal",
+        "Vol"
+      ]
+    },
+    {
+      "id": 17,
+      "hp": "69",
+      "cp": "7",
+      "name": "Roucoups",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/017.png",
+      "types": [
+        "Normal",
+        "Vol"
+      ]
+    },
+    {
+      "id": 18,
+      "hp": "99",
+      "cp": "9",
+      "name": "Roucarnage",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/018.png",
+      "types": [
+        "Normal",
+        "Vol"
+      ]
+    },
+    {
+      "id": 19,
+      "hp": "30",
+      "cp": "3",
+      "name": "Rattata",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/019.png",
+      "types": [
+        "Normal"
+      ]
+    },
+    {
+      "id": 20,
+      "hp": "88",
+      "cp": "8",
+      "name": "Rattatac",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/020.png",
+      "types": [
+        "Normal"
+      ]
+    },
+    {
+      "id": 21,
+      "hp": "40",
+      "cp": "4",
+      "name": "Piafabec",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/021.png",
+      "types": [
+        "Normal",
+        "Vol"
+      ]
+    },
+    {
+      "id": 22,
+      "hp": "77",
+      "cp": "7",
+      "name": "Rapasdepic",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/022.png",
+      "types": [
+        "Normal",
+        "Vol"
+      ]
+    }
+  ]
+}
