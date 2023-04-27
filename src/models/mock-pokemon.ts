@@ -12,18 +12,18 @@ export const POKEMONS: Pokemon[] = [
  },
  {
   id: 2,
-  name: "Salamèche",
-  hp: 28,
-  cp: 6,
-  picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
+  name: "Herbizarre",
+  hp: 80,
+  cp: 8,
+  picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
   types: ["Feu"],
   created: new Date()
  },
  {
   id: 3,
-  name: "Carapuce",
-  hp: 21,
-  cp: 4,
+  name: "Florizarre",
+  hp: 112,
+  cp: 13,
   picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png",
   types: ["Eau"],
   created: new Date()
